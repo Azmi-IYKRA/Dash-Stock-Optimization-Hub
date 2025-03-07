@@ -963,4 +963,4 @@ def update_chatbot_output(n_clicks, user_input, chat_history, socket_id):
     return chat_elements, chat_history, "", []
 
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run_server(debug=False, host='0.0.0.0', port=8050)
