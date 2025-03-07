@@ -170,4 +170,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-.vscodeproject/app/data/processed/metrics_raw_data.csv
+metrics_raw_data.csv

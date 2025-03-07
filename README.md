@@ -1,6 +1,3 @@
-<<<<<<< HEAD
 # Dash-Stock-Optimization-Hub
-Halelujah
-=======
 
->>>>>>> 5bae8d3 (Initial commit)
+Link data: https://drive.google.com/file/d/1Jyu84DVhhrFBbqdgpMhjREUZ0si9KtYA/view?usp=drive_link

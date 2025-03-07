@@ -22,9 +22,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 # Menggunakan OpenAI untuk chatbot (menggunakan GPT-3 atau GPT-4)
 # 1. Load and preprocess data
 project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-# D:\Kerjaan\IYKRA\Dashboard\AI-DASHBOARD-APP-OFFLINE-VERSION\project\app\data\query_result
-
-chatbot_table_file = os.path.join(project_root, "app\\data\\query_result\\chatbot_table_data.pkl")
+chatbot_table_file = os.path.join(project_root, "app","data","query_result","chatbot_table_data.pkl")
 data = pd.read_pickle(chatbot_table_file)
 
 # Select relevant columns for embedding

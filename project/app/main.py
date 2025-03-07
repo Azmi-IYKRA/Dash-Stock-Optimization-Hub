@@ -18,11 +18,11 @@ import threading
 # Get all necessary dfs
 current_dir = os.getcwd()
 
-processed_dir = 'D:\Kerjaan\\IYKRA\\Dashboard\\AI-DASHBOARD-APP-OFFLINE-VERSION\\project\\app\\data\\processed'
-file_path1 = os.path.join(current_dir, processed_dir, 'stock_pivot_data.csv')
-file_path2 = os.path.join(current_dir, processed_dir, 'pulp_result_data.csv')
+base_dir = os.path.dirname(os.path.realpath(__file__))
+file_path1 = os.path.join(base_dir, 'data', 'processed', 'stock_pivot_data.csv')
+file_path2 = os.path.join(base_dir, 'data', 'processed', 'pulp_result_data.csv')
 # file_path3 = os.path.join(current_dir, processed_dir, 'metrics_barpolar.csv')
-file_path3 = os.path.join(current_dir, processed_dir, 'metrics_raw_data.csv')
+file_path3 = os.path.join(base_dir, 'data', 'processed', 'metrics_raw_data.csv')
 
 
 # Store the original data globally
