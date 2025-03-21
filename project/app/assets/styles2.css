@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* custom-styles.css */
+.body-container {
+    min-height: 100vh;
+    background-color: #3A3D43 !important;
+    font-family: 'Poppins' !important; 
+}
+
+/* header-container */
+.header-container {
+    background-color: #406abd !important;
+    font-family: 'Poppins' !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+}
+
+/* title-and-logo container */
+.title-and-logo {
+    height: 8vh;
+    margin-top: 10px;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+}
+
+/* All dropdown */
+.Select {  
+    border-radius: 10px !important;                                           
+}
+
+/* Style for all Dash Dropdowns */
+.Select-control {
+    font-size: 11px;      
+    color: #333333;       
+    background-color: #f9f9f9;  
+    border-radius: 10px;    
+    padding: 0px;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;       
+}
+
+/* Style for dropdown options */
+.VirtualizedSelectOption {
+    font-size: 9px;       
+    color: #000000;       
+    background-color: #ffffff;
+}
+
+/* Highlighted (hovered) option */
+.VirtualizedSelectFocusedOption {
+    background-color: #007BFF;
+    color: white;              
+}
+
+.filter-dropdown .Select-multi-value-wrapper {
+    max-height: 40px;
+    overflow-y: auto !important;
+}
+
+/* title-and-logo container */
+h1, h4, h6 {
+    text-shadow: none !important;
+    color: whitesmoke;
+}
+
+/* logo-iykra*/
+.logo-iykra {
+    width: auto;
+    height: 5vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* logo-iykra*/
+.logo-ai {
+    width: auto;
+    height: 8vh;
+    padding: 0;
+    margin: 0;
+}
+/* card */
+.card {
+    border-radius: 10px !important;
+    background-color: #202c34 !important;
+    color: whitesmoke;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* card-header */
+.card-header {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+/* card-body */
+.card-body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #30343c !important;
+    border-radius: 10px;
+    border-collapse: separate;
+}
+
+/* metric card */
+.metric-column1 {
+    padding: 0px;
+    margin-right: 0px;
+    background-color: transparent;
+}
+.metric-column2 {
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+}
+
+/* Sort by dropdown */
+.sort-card-header {
+    margin: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;  
+    padding-left: 0px !important;  
+}
+
+.sort-dropdown {
+    height: 25px !important;
+    width: 70%;
+    margin: 0px;
+    margin-bottom: 10px !important;
+    padding: 0px !important;
+    border: none !important;
+}
+
+.sort-dropdown .Select-control {    
+    font-size: 15px;
+    background-color: #202c34 !important;
+    color: whitesmoke !important;   
+    border: none !important;
+}
+
+.sort-dropdown .VirtualizedSelectOption {
+    font-size: 11px;
+    background-color: #202c34;    
+    color: whitesmoke;       
+
+}
+
+/* barpolar chart */
+.barpolar-card {
+    height: 420 !important;
+}
+
+.barpolar-card-body {
+    margin: 0px !important;
+    padding-right: 0px!important;
+    padding-left: 0px !important;
+}
+
+.barpolar-chart {
+    height: 320px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    padding-left: 0px !important;
+}
+
+/* button */
+.button {
+    border-radius: 10px;
+    font-family: 'Poppins' !important;
+    font-size: 11px !important;
+}
+
+/* Edit table*/
+/* General Table Styling */
+.ag-theme-quartz-dark .ag-cell{
+    font-size: 12px !important;
+    /* background-color: #202c34 !important;
+    color: whitesmoke !important; */
+}
+/* .ag-theme-quartz.table .ag-header-cell {
+    background-color: #1E1F22;    
+    color: #f5f5f5;                                       
+    padding: 10px;
+}
+.ag-theme-quartz .ag-center-cols-container .ag-cell:not(:nth-child(1)),
+.ag-theme-quartz .ag-header-cell:not(:nth-child(1)) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+    background-color: #2E2E38;   
+    color: #FFFFFF;             
+}
+/* Add hover effect */
+.ag-theme-quartz .ag-row-hover {
+    background-color: #4A4D52 !important;
+    color: #ffffff;
+}
+
+#stockout-ratio-scorecard > div.js-plotly-plot > div.plot-container {
+    position: absolute !important;
+    top: 60% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+}
+
+#itr-scorecard > div.js-plotly-plot > div.plot-container {
+    position: absolute !important;
+    top: 60% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+}
+
+.Select-value {
+    text-align: left;
+    padding: 0px 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.m-1 {
+    margin: 1rem !important;
+}
